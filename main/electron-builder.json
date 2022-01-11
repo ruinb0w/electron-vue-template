@@ -1,0 +1,28 @@
+{
+  "electronDownload": {
+    "mirror": "https://npm.taobao.org/mirrors/electron/"
+  },
+  "directories": {
+    "output": "dist"
+  },
+  "productName": "",
+  "appId": "",
+  "asar": false,
+  "extraMetadata": {
+    "name": "",
+    "version": "0.0.1"
+  },
+  "win": {
+    "icon": "",
+    "target": ["nsis"]
+  },
+  "nsis": {
+    "installerIcon": "",
+    "uninstallerIcon": "",
+    "uninstallDisplayName": "卸载软件",
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "allowElevation": true,
+    "createDesktopShortcut": true
+  }
+}
